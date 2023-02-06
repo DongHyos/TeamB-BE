@@ -29,6 +29,7 @@ public class MiddleWeatherService {
 
         LocalDateTime date = LocalDateTime.now();
         LocalDate localDate = LocalDate.now();
+
         int result = 3;
 
         if (date.getHour() < 6) {
